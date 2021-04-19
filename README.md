@@ -1,4 +1,4 @@
-#IMDb-Movie-Review-Sentiment-analysis
+# Coronavirus-tweets-NLP---Multi-Text-Classification
 The project is about multi classification problem, the data set contained the raw tweets provide by different age group of people. This repository contain the code for pre-processing and applying machine learning techniques to predict sentiments of the user.
 ## Dataset
 (https://www.kaggle.com/datatattle/covid-19-nlp-text-classification)
