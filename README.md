@@ -18,7 +18,7 @@ The project is about multi classification problem, the data set contained the ra
 ## Description 
 In this work, the project is consisting of three variants. After downloading the data from Kaggle I performed the data analysis and data pre-processing. The data pre-processing module include, Lemmatization, stop words and punctuation removal.
 
-## variant 1
+## version 1
 The performance of several ML Classifiers is tested:
 - **Naive Bayes** 
 - **Ada boost (AB)**
@@ -27,14 +27,14 @@ The performance of several ML Classifiers is tested:
 
 Among those RF and GBC perfume well on this data set. Then I optimized the **hyper-parameters** of RF by using Randomized Search CV.
 
-## variant 2
+## version 2
 In this module following model and techniques has been implemented 
 - **Feed Forward Neural Network** 
 - **Data imbalance techniques** 
 
 From the graphical illustration of data analysis techniques, we can see that data set falls in data imbalance category. In-order to overcome this issue I used the class weights technique. At the end I designed the neural network architecture and trained the model and listed the classification report to see the performance of the model.
 
-## variant 3
+## varsion 3
 In the 3rd variant I did another experiment rather than combining the similar classes into single class that I was doing in the above variants. Instead, I used them as a separate classes and trained the deep leering model.
 
 ## How to Run The Code
