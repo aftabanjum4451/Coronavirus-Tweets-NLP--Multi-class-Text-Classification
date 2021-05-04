@@ -25,7 +25,7 @@ The performance of several ML Classifiers is tested:
 - **Gradient Boosting Classifier (GBC)**
 - **Random Forest (RF)**
 
-Among those RF and GBC perfume well on this data set. Then I optimized the **hyper-parameters** of RF by using Randomized Search CV.
+Among those RF and GBC perfume well on this data set. Then I optimized the **hyper-parameters** of RF by using **Randomized Search CV**.
 
 ## version 2
 In this module following model and techniques has been implemented 
