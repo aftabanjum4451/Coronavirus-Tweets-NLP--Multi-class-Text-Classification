@@ -28,12 +28,14 @@ The performance of several ML Classifiers is tested:
 Among those RF and GBC perfume well on this data set. Then I optimized the **hyper-parameters** of RF by using Randomized Search CV.
 
 ## variant 2
-1.The deep learning model **Feed Forward Neural Network** is tested in the 2nd varint.
+In this module following model and techniques has been implemented 
+- Model **Feed Forward Neural Network** 
+- Data imbalance techniques 
 
-From the graphical illustration of some data analysis techniques, we can see the data set also fall in data imbalance category. In-order to overcome this issue I used the class weights technique. At the end I designed the neural network architecture and trained the model and listed the classification report to see the performance of the model 
+From the graphical illustration of data analysis techniques, we can see that data set falls in data imbalance category. In-order to overcome this issue I used the class weights technique. At the end I designed the neural network architecture and trained the model and listed the classification report to see the performance of the model.
 
 ## variant 3
-In the 3rd variant I did another experiment rather than combining the similar classes into single class that I was doing in the above variants. Instead, I used them as a separate class and trained the deep leering model and check the performance of the model.
+In the 3rd variant I did another experiment rather than combining the similar classes into single class that I was doing in the above variants. Instead, I used them as a separate classes and trained the deep leering model.
 
 ## How to Run The Code
 All the code and comments are listed the jupyter notbook (NLP-covid-19 -Text Classification.ipynb)
