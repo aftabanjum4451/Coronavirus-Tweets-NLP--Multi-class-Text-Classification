@@ -21,11 +21,10 @@ In this work, the project is consisting of three variants. After downloading the
 ## variant 1
 The performance of several ML Classifiers is tested:
 - **Naive Bayes** 
-- **Ensemble Methods**
- - Ada boost (AB)
- - Gradient Boosting Classifier (GBC)
- - Random Forest (RF)
-Among those RF and GBC perfume well on this data set. Then I optimized the **hyper-parameters** of RF by using Randomized Search CV.
+- **Ada boost (AB)**
+- **Gradient Boosting Classifier (GBC)**
+- **Random Forest (RF)**
+ Among those RF and GBC perfume well on this data set. Then I optimized the **hyper-parameters** of RF by using Randomized Search CV.
 
 ## variant 2
 In the 2nd variant I used **Deep Learning model (Feed Forward Neural Network)** rather than ML Models. From the graphical illustration of some data analysis techniques, we can see the data set also fall in data imbalance category. In-order to overcome this issue I used the class weights technique. At the end I designed the neural network architecture and trained the model and listed the classification report to see the performance of the model 
