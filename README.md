@@ -29,8 +29,8 @@ Among those RF and GBC perfume well on this data set. Then I optimized the **hyp
 
 ## variant 2
 In this module following model and techniques has been implemented 
-- Model **Feed Forward Neural Network** 
-- Data imbalance techniques 
+- **Feed Forward Neural Network** 
+- **Data imbalance techniques** 
 
 From the graphical illustration of data analysis techniques, we can see that data set falls in data imbalance category. In-order to overcome this issue I used the class weights technique. At the end I designed the neural network architecture and trained the model and listed the classification report to see the performance of the model.
 
