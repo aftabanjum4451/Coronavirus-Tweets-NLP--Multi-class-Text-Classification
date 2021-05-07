@@ -1,5 +1,5 @@
 # Coronavirus-tweets-NLP---Multi-Text-Classification
-The project is about multi classification problem, the data set contained the raw tweets provide by different age group of people. This repository contain the code for pre-processing and applying machine learning techniques to predict sentiments of the user.
+The project is about multi classification problem, the data set contained the raw tweets provide by different age group of people. This repository contains the code for pre-processing and applying machine learning techniques to predict sentiments of the user.
 ![](images/corona_virus.jpg)
 ## Dataset
 (https://www.kaggle.com/datatattle/covid-19-nlp-text-classification)
@@ -17,7 +17,7 @@ The project is about multi classification problem, the data set contained the ra
 - re
 
 ## Description 
-In this work, the project is consisting of three variants. After downloading the data from Kaggle I performed the data analysis and data pre-processing. The data pre-processing module include, Lemmatization, stop words and punctuation removal.
+In this work, the project consists of three variants. After downloading the data from Kaggle, I performed the data analysis and data pre-processing. The data pre-processing module includes: Lemmatization, stop words and punctuation removal.
 
 ## version 1
 The performance of several ML Classifiers is tested:
@@ -26,19 +26,19 @@ The performance of several ML Classifiers is tested:
 - **Gradient Boosting Classifier (GBC)**
 - **Random Forest (RF)**
 
-Among those RF and GBC perfume well on this data set. Then I optimized the **hyper-parameters** of RF by using **Randomized Search CV**.
+Among these, RF and GBC perfom well on this data set. After that, I optimized the **hyper-parameters** of RF by using **Randomized Search CV**.
 
 ## version 2
-In this module following model and techniques has been implemented 
+In this module, the given below model and techniques have been implemented 
 - **Feed Forward Neural Network** 
 - **Data imbalance techniques** 
 
-From the graphical illustration of data analysis techniques, we can see that data set falls in data imbalance category. In-order to overcome this issue I used the class weights technique. At the end I designed the neural network architecture and trained the model and listed the classification report to see the performance of the model.
+From the graphical illustration of data analysis techniques, we can see that data set falls in data imbalance category. In order to overcome this issue, I used the class weights technique. At the end, I designed the neural network architecture and trained the model and listed the classification report to see the performance of the model.
 
-## varsion 3
-In the 3rd variant I did another experiment rather than combining the similar classes into single class that I was doing in the above variants. Instead, I used them as a separate classes and trained the deep leering model.
+## version 3
+In the 3rd variant, instead of combining the similar classes into single class, that was done in earlier variants, I used them as separate classes and trained the deep learning model.
 
 ## How to Run The Code
-All the code and comments are listed the jupyter notbook (NLP-covid-19 -Text Classification.ipynb)
+All the code and comments are listed in the jupyter notbook (NLP-covid-19 -Text Classification.ipynb)
 
 
